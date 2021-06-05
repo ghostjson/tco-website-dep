@@ -1,0 +1,37 @@
+section.why-us-section{
+  background-color: black;
+  padding: 40px;
+  color: white;
+  position: relative;
+
+  .social-icons{
+    display: flex;
+    position: absolute;
+    right: 60px;
+
+    .icon{
+      margin: 5px;
+    }
+  }
+
+  h3{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  p, ul li{
+   padding: 10px;
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  p{
+    margin-bottom: 20px;
+  }
+
+  ul{
+    margin-left: 30px;
+    max-width: 650px;
+  }
+}

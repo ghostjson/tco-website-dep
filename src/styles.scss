@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+// reset browser defaults
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// fonts
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf');
+}
+
+*{
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
