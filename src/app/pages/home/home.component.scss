@@ -1,0 +1,39 @@
+.home-section {
+  padding-top: 55vh;
+  background: rgb(82,83,103);
+  background: linear-gradient(52deg, rgba(82,83,103,1) 56%, rgba(44,62,76,1) 80%);
+
+  .home-content {
+    display: flex;
+    background-color: white;
+
+    .home-left-section {
+      width: 55vw;
+
+      #div-shadow{
+        position: relative;
+        top: -0.9vw;
+      }
+
+      p {
+        padding: 60px;
+        font-size: 1.1em;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-bottom: 100px;
+        line-height: 25px;
+      }
+
+    }
+
+    .home-right-section {
+      width: 45vw;
+
+      .woman {
+        width: inherit;
+        position: relative;
+        top: -19.4vw;
+        //margin-top: -262px;
+      }
+    }
+  }
+}
