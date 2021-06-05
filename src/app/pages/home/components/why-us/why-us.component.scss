@@ -18,6 +18,15 @@ section.why-us-section{
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    position: relative;
+    height: 45px;
+
+    #heading-line{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+    }
   }
 
   p, ul li{
